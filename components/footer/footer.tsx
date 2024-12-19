@@ -13,10 +13,8 @@ const sections = [
   {
     title: "Company",
     links: [
-      { name: "About", href: "#" },
-      { name: "Team", href: "#" },
-      { name: "Blog", href: "#" },
-      { name: "Careers", href: "#" },
+      { name: "About", href: "/about-us" },
+      { name: "Contact", href: "/contact-us" },
     ],
   },
   {
@@ -25,7 +23,7 @@ const sections = [
       { name: "Help", href: "#" },
       { name: "Sales", href: "#" },
       { name: "Advertise", href: "#" },
-      { name: "Privacy", href: "#" },
+      { name: "Privacy", href: "/privacy-policy" },
     ],
   },
 ];
@@ -39,11 +37,6 @@ const Footer = () => {
             <div className="flex w-full max-w-96 shrink flex-col items-center justify-between gap-6 lg:items-start">
               <div>
                 <span className="flex items-center justify-center gap-4 lg:justify-start">
-                  <img
-                    src="https://shadcnblocks.com/images/block/block-1.svg"
-                    alt="logo"
-                    className="h-11"
-                  />
                   <p className="text-3xl font-semibold tracking-tighter">
                     Restobytes
                   </p>
@@ -97,7 +90,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-20 flex flex-col justify-between gap-4 border-t pt-8 text-center text-sm font-medium text-muted-foreground lg:flex-row lg:items-center lg:text-left">
-            <p>© 2024 Shadcnblocks. All rights reserved.</p>
+            <p>© 2024 Restobytes. All rights reserved.</p>
             <ul className="flex justify-center gap-4 lg:justify-start">
               <li className="hover:text-primary">
                 <a href="/terms-of-services"> Terms and Conditions</a>
