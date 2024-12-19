@@ -7,7 +7,7 @@ export default function ContactUs() {
     <div className="container mx-auto py-10 px-4">
       <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
       <p className="text-base mb-4">
-        Have questions or need assistance? We're here to help. Feel free to
+        Have questions or need assistance? We&apos;re here to help. Feel free to
         reach out to us through any of the channels below.
       </p>
       <h2 className="text-xl font-semibold mt-6">Get in Touch</h2>

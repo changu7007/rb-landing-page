@@ -14,9 +14,9 @@ export default function AboutUs() {
       <p className="text-base mb-4">
         At Restobytes, we aim to simplify complexities by offering an all-in-one
         solution. Whether you want to integrate third-party apps like Zomato or
-        Swiggy, or build a custom online food ordering portal, we've got you
-        covered. Our mission is to help you achieve operational excellence, so
-        you can focus on delighting your customers.
+        Swiggy, or build a custom online food ordering portal, we&apos;ve got
+        you covered. Our mission is to help you achieve operational excellence,
+        so you can focus on delighting your customers.
       </p>
       <p className="text-base mb-4">
         Join us in transforming the restaurant industry with technology-driven
