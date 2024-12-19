@@ -93,7 +93,7 @@ const Navbar = () => {
               </span>
             </div>
             <div className="flex items-center">
-              <a
+              <Link
                 className={cn(
                   "text-muted-foreground",
                   navigationMenuTriggerStyle,
@@ -104,7 +104,7 @@ const Navbar = () => {
                 href="/"
               >
                 Home
-              </a>
+              </Link>
               <NavigationMenu>
                 <NavigationMenuList>
                   <NavigationMenuItem className="text-muted-foreground">
@@ -116,7 +116,7 @@ const Navbar = () => {
                         <NavigationMenuLink>
                           {subMenuItemsOne.map((item, idx) => (
                             <li key={idx}>
-                              <a
+                              <Link
                                 className={cn(
                                   "flex select-none gap-4 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                                 )}
@@ -131,7 +131,7 @@ const Navbar = () => {
                                     {item.description}
                                   </p>
                                 </div>
-                              </a>
+                              </Link>
                             </li>
                           ))}
                         </NavigationMenuLink>
@@ -172,7 +172,7 @@ const Navbar = () => {
                 </NavigationMenuList>
               </NavigationMenu>
 
-              <a
+              <Link
                 className={cn(
                   "text-muted-foreground",
                   navigationMenuTriggerStyle,
@@ -183,8 +183,8 @@ const Navbar = () => {
                 href="#"
               >
                 Pricing
-              </a>
-              <a
+              </Link>
+              <Link
                 className={cn(
                   "text-muted-foreground",
                   navigationMenuTriggerStyle,
@@ -195,7 +195,7 @@ const Navbar = () => {
                 href="#"
               >
                 Blog
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex gap-2">
