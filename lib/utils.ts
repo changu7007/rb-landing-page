@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 export const termsData = {
   termsOfService: {
     title: "Terms of Service",
-    effectiveDate: "[Insert Date]",
+    effectiveDate: "19-12-2024",
     sections: [
       {
         title: "Services Provided",
@@ -82,13 +82,13 @@ export const termsData = {
       },
       {
         title: "Contact Information",
-        content: ["Phone: 9481535216", "Email: support@restobytes.in"],
+        content: ["Phone: +91 9481535216", "Email: support@restobytes.in"],
       },
     ],
   },
   privacyPolicy: {
     title: "Privacy Policy",
-    effectiveDate: "[Insert Date]",
+    effectiveDate: "19-12-2024",
     sections: [
       {
         title: "Information We Collect",
@@ -149,7 +149,7 @@ export const termsData = {
       },
       {
         title: "Contact Information",
-        content: ["Phone: 9481535216", "Email: support@restobytes.in"],
+        content: ["Phone: +91 9481535216", "Email: support@restobytes.in"],
       },
     ],
   },

@@ -15,7 +15,7 @@ export default function ContactUs() {
         <li>
           <strong>Phone:</strong>{" "}
           <Link href="tel:9481535216" className="text-blue-500">
-            9481535216
+            +91 9481535216
           </Link>
         </li>
         <li>
@@ -29,7 +29,8 @@ export default function ContactUs() {
       <p className="text-base mb-4">
         Restobytes
         <br />
-        Gonikoppal, Karnataka, India
+        Muthusara Nilaya, ANugraha Layout, Patelnagar 4th
+        block,Gonikoppal,Ponampet Taluk,Kodagu Dist. Karnataka, India - 571213
       </p>
       <h2 className="text-xl font-semibold mt-6">Follow Us</h2>
       <p className="text-base">
