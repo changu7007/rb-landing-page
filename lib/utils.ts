@@ -153,4 +153,42 @@ export const termsData = {
       },
     ],
   },
+  refundPolicy: {
+    title: "Refund and Cancellation Policy",
+    effectiveDate: "19-12-2024",
+    sections: [
+      {
+        title: "Subscriptions",
+        content: "Subscriptions to Restobytes services are non-refundable.",
+      },
+      {
+        title: "Online Food Ordering Portal Payments",
+        content: [
+          "Payments on these portals are processed via Razorpay's payment gateway with the Route and Split Payment feature.",
+          "In case of any payment issues, the restaurant owner can directly manage refunds through Razorpay\u2019s refund functionality.",
+        ],
+      },
+      {
+        title: "Refunds for Online Payments",
+        content:
+          "For payments made through the online food ordering portal, refund requests are managed solely by the restaurant owner via Razorpay.",
+      },
+      {
+        title: "Cancellation Policy",
+        content: [
+          "Cancellations for subscriptions can be made anytime; however, no refunds will be issued.",
+          "For disputes related to online orders and payments, these are handled by the respective restaurant owner.",
+        ],
+      },
+      {
+        title: "Liability",
+        content:
+          "Restobytes is not responsible for payment disputes or refunds initiated by customers of the restaurant. These issues are to be resolved between the restaurant owner and their customers via Razorpay\u2019s system.",
+      },
+      {
+        title: "Contact Information",
+        content: ["Phone: +91 9481535216", "Email: support@restobytes.in"],
+      },
+    ],
+  },
 };

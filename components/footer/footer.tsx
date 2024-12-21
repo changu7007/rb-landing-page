@@ -98,6 +98,9 @@ const Footer = () => {
               <li className="hover:text-primary">
                 <a href="/privacy-policy"> Privacy Policy</a>
               </li>
+              <li className="hover:text-primary">
+                <a href="/refund-and-cancellation"> Refund and Cancellation</a>
+              </li>
             </ul>
           </div>
         </footer>
